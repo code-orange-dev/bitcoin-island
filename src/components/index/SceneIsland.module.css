@@ -1,0 +1,21 @@
+.bgLand {
+    background: url('/images/bg-land-1.svg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-repeat: no-repeat;
+    left: 0;
+    z-index: 1;
+}
+
+.islandContainer {
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

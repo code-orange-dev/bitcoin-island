@@ -1,5 +1,9 @@
-import Head from 'next/head';
-import styles from './index.module.css';
+import Head from "next/head";
+import styles from "./index.module.css";
+import { MainTitle } from "../src/components/index/MainTitle";
+import { SceneBackground } from "../src/components/index/SceneBackground";
+import { SceneIsland } from "../src/components/index/SceneIsland";
+import { ItemMerchant } from "../src/components/index/ItemMerchant";
 
 export default function Home() {
   return (
@@ -10,13 +14,16 @@ export default function Home() {
       </Head>
 
       <main>
-          {/* Title */}
-          <div className={styles.mainTitle}>Bitcon Island</div>
+        {/* Title */}
+        <MainTitle />
 
+        <SceneIsland>
           {/* Links */}
-          <a href="/what-is-bitcoin">What is Bitcoin</a>
-          <a href="/sample-page">Sample Page</a>
-       </main>
+          <ItemMerchant to="/what-is-bitcoin" x={2 * 160} y={2 * 160} />
+          <ItemMerchant to="/sample-page" x={3 * 160} y={2 * 160} />
+        </SceneIsland>
+        <SceneBackground />
+      </main>
     </div>
   );
 }

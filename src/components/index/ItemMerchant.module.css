@@ -1,0 +1,20 @@
+.merchantContainer .merchantImage {
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.merchantContainer:hover .merchantImage {
+    filter: grayscale(100%);
+}
+
+.merchantImage {
+    background: url('/images/merchant-1.svg');
+    background-size: 100% 100%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    background-repeat: no-repeat;
+    left: 0;
+    z-index: 2;
+    display: block;
+}

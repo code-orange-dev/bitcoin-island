@@ -1,0 +1,8 @@
+.mainTitle {
+    font-size: 8rem;
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    left: 30px;
+    line-height: 4.8rem;
+}
