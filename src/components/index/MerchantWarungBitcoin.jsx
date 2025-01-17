@@ -1,10 +1,10 @@
 import * as React from "react";
-import * as styles from "./ItemMerchant.module.css";
+import * as styles from "./MerchantWarungBitcoin.module.css";
 import * as motion from "motion/react-client";
 
-const getRandomDelay = () => Math.random() + (0.1);
+const getRandomDelay = () => Math.random() + 0.1;
 
-export const ItemMerchant = ({ to, x, y }) => {
+export const MerchantWarungBitcoin = ({ to, x, y }) => {
   return (
     <a href={to} className={styles.merchantContainer}>
       <motion.div

@@ -1,0 +1,12 @@
+.merchantImage {
+    background: url('/images/decor-flower-1.svg');
+    background-size: 100% 100%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    background-repeat: no-repeat;
+    left: 0;
+    z-index: 2;
+    display: block;
+}
