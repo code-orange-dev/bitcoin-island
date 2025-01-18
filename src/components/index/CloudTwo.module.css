@@ -1,0 +1,40 @@
+@keyframes cloudAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(0);
+    }
+
+    10% {
+        opacity: 0.5;
+        transform: translateX(10%);
+    }
+
+    50% {
+        opacity: 0.9;
+        transform: translateX(50%);
+    }
+
+    80% {
+        opacity: 0.5;
+        transform: translateX(90%);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
+.image {
+    background: url('/images/cloud-2.svg');
+    background-size: 100% 100%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: block;
+    background-repeat: no-repeat;
+    animation: cloudAnimation 70s infinite;
+}

@@ -7,14 +7,14 @@
     top: 0;
     background-repeat: no-repeat;
     left: 0;
-    z-index: 1;
+    z-index: 3;
 }
 
 .islandContainer {
     position: absolute;
     width: 1000px;
     height: 700px;
-    z-index: 2;
+    z-index: 4;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
