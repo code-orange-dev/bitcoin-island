@@ -1,0 +1,8 @@
+.tweetContainer {
+  background: url("/images/bg-ocean-1.svg");
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
