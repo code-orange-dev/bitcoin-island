@@ -41,7 +41,7 @@ export default function Home() {
 
         <SceneIsland>
           {/* Links */}
-          <MerchantBusStop to="/bus-stop" x={240} y={300} />
+          <MerchantBusStop to="https://vis-btc.btcln.app/v/btc" x={240} y={300} />
           <MerchantBitcoin to="/what-is-bitcoin" x={2 * 175} y={2 * 170} />
           <ItemMerchant to="/sample-page" x={3 * 160} y={2 * 160} />
           <MerchantTwo to="/sample-page" x={500} y={200} />

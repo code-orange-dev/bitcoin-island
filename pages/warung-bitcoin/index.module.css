@@ -1,0 +1,140 @@
+.page {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.page .leftSide {
+    background-color: #333;
+    width: 50%;
+    color: white;
+    overflow: hidden;
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    display: block;
+}
+
+.page .rightSide {
+    background-color: #222;
+    width: 50%;
+    padding: 10px 50px;
+    padding-bottom: 100px;
+    color: white;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+.h1 {
+    font-size: 4rem;
+    line-height: 3rem;
+}
+
+.p {
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    font-family: "Open Sans", serif;
+}
+
+.actionBtn {
+    padding: 10px 20px;
+    background-color: orange;
+    font-size: 2rem;
+    color: #333;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    display: inline-block;
+}
+
+.actionBtn:hover {
+    padding: 10px 20px;
+    background-color: rgb(224, 148, 7);
+    font-size: 2rem;
+    color: #333;
+    transform: rotate(4deg);
+}
+
+
+
+
+/* Animation */
+.anim {
+    background-image: url('/images/warung-bitcoin/bg-pattern.png');
+    background-size: 300px 300px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #ddd;
+    animation: moveBackground 50s infinite linear;
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+
+.tshirt1 {
+    background: url('/images/warung-bitcoin/tshirt-1.svg');
+    background-size: 100% 100%;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: block;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.tshirt2 {
+    background: url('/images/warung-bitcoin/tshirt-2.svg');
+    background-size: 100% 100%;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: block;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.tshirt3 {
+    background: url('/images/warung-bitcoin/tshirt-3.svg');
+    background-size: 100% 100%;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: block;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.totebag1 {
+    background: url('/images/warung-bitcoin/tote-1.svg');
+    background-size: 100% 100%;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: block;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
