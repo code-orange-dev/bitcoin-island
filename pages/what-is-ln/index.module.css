@@ -1,0 +1,235 @@
+.page {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+
+.page .leftSide {
+	background-color: #333;
+	width: 50%;
+	color: white;
+	overflow: hidden;
+	max-width: 100%;
+	height: 100vh;
+	position: relative;
+	display: block;
+}
+
+.page .rightSide {
+	background-color: #222;
+	width: 50%;
+	padding: 10px 50px;
+	padding-bottom: 100px;
+	color: white;
+	text-align: center;
+	overflow-y: scroll;
+}
+
+.h1 {
+	font-size: 4rem;
+	line-height: 3rem;
+}
+
+.h2 {
+	font-size: 2.5rem;
+	line-height: 2rem;
+}
+
+.p {
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+	font-family: "Open Sans", serif;
+}
+
+.actionBtn {
+	padding: 10px 20px;
+	background-color: orange;
+	font-size: 2rem;
+	color: #333;
+	transition: transform 0.3s ease, background-color 0.3s ease;
+	display: inline-block;
+}
+
+.actionBtn:hover {
+	padding: 10px 20px;
+	background-color: rgb(224, 148, 7);
+	font-size: 2rem;
+	color: #333;
+	transform: rotate(4deg);
+}
+
+/* Animation */
+.anim {
+	width: 600px;
+	display: block;
+	height: 100%;
+	margin: auto;
+	position: relative;
+}
+
+.coinBtc {
+	background: url("/images/ln-atm/coin-btc.svg");
+	background-size: 100% 100%;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	z-index: 2;
+	display: block;
+	background-repeat: no-repeat;
+}
+
+.anim {
+	width: 600px;
+	height: 100%;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.page .leftSide {
+	background-color: #333;
+	width: 50%;
+	height: 100vh;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	color: white;
+}
+
+.page .rightSide {
+	background-color: #222;
+	width: 50%;
+	padding: 10px 50px;
+	padding-bottom: 100px;
+	color: white;
+	text-align: center;
+	overflow-y: scroll;
+}
+
+/* Lightning */
+.lightnings {
+	margin-top: -100px;
+	position: absolute;
+	height: calc(100vh + 100px);
+	overflow: hidden;
+	width: 100%;
+	opacity: 0;
+	animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeIn {
+	to {
+		opacity: 1;
+	}
+}
+
+.lightningOne {
+	background: url("/images/ln-atm/lightning-1.svg");
+	background-size: 100% 100%;
+	width: 900px;
+	height: 900px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	display: block;
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+.lightningTwo {
+	background: url("/images/ln-atm/lightning-2.svg");
+	background-size: 100% 100%;
+	width: 900px;
+	height: 900px;
+	position: absolute;
+	top: 0;
+	left: -100px;
+	z-index: 2;
+	display: block;
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+.lightningThree {
+	background: url("/images/ln-atm/lightning-3.svg");
+	background-size: 100% 100%;
+	width: 900px;
+	height: 900px;
+	position: absolute;
+	top: 0;
+	right: -200px;
+	z-index: 2;
+	display: block;
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+.flashingLightningBg {
+	position: absolute;
+	height: 140vh;
+	width: 100%;
+	background-color: #fff;
+	z-index: 4;
+	animation: flashBackground 5s infinite;
+}
+
+@keyframes flashBackground {
+	0%,
+	1%,
+	2%,
+	3%,
+	4% {
+		opacity: 0;
+	}
+
+	5% {
+		opacity: 0.4;
+	}
+
+	6%,
+	7%,
+	8% {
+		opacity: 1;
+	}
+
+	9%,
+	10%,
+	11% {
+		opacity: 0.3;
+	}
+
+	12%,
+	13% {
+		opacity: 0.2;
+	}
+
+	14% {
+		opacity: 0.1;
+	}
+
+	15% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+/* li Syling */
+.liItem {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.liContent {
+	font-size: 0.7rem;
+	line-height: 1.5rem;
+	font-family: "Open Sans", serif;
+    font-weight: lighter;
+}
