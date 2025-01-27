@@ -52,8 +52,8 @@ export default function Home() {
           <MerchantBitSocial to="/bit-social" x={800} y={300} />
           <MerchantWarungBitcoin to="/warung-bitcoin" x={600} y={300} />
           <MerchantLightningSim to="/ln-sim" x={440} y={280} />
-          <MerchantQr to="/qr" x={485} y={430} />
-          <MerchantQr to="/qr" x={485} y={430} />
+          <MerchantQr to="/bitcoin-federation" x={485} y={430} />
+          <MerchantQr to="/bitcoin-federation" x={485} y={430} />
 
           {/* Decoration */}
           <DecorFlowerOne x={340} y={440} />
