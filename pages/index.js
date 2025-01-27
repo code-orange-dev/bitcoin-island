@@ -51,7 +51,7 @@ export default function Home() {
           <MerchantLightningToGopay to="/ln-to-gopay" x={720} y={273} />
           <MerchantBitSocial to="/bit-social" x={800} y={300} />
           <MerchantWarungBitcoin to="/warung-bitcoin" x={600} y={300} />
-          <MerchantLightningSim to="/ln-sim" x={440} y={280} />
+          <MerchantLightningSim to="/what-is-ln" x={440} y={280} />
           <MerchantQr to="/bitcoin-federation" x={485} y={430} />
           <MerchantQr to="/bitcoin-federation" x={485} y={430} />
 
