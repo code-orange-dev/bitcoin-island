@@ -22,7 +22,7 @@ const FederationPage = () => {
                 {/* Featured Image */}
                 <div className={styles.featuredImage}>
                     <img
-                        src="/images/bitcoin/bitcoin-conference.jpg"    // Can replace this with any image
+                        src="/images/bitcoin/btc-meetup.jpg"    // Can replace this with any image
                         alt="Bitcoin Conference"
                     />
                 </div>
