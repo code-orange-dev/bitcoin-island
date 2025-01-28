@@ -44,7 +44,7 @@ export default function Home() {
           <MerchantBusStop to="https://vis-btc.btcln.app/v/btc" x={240} y={300} />
           <MerchantBitcoin to="/what-is-bitcoin" x={2 * 175} y={2 * 170} />
           <ItemMerchant to="/sample-page" x={3 * 160} y={2 * 160} />
-          <MerchantTwo to="/sample-page" x={500} y={200} />
+          <MerchantTwo to="/bitcoin-indonesia" x={500} y={200} />
           <MerchantThree to="/sample-page" x={400} y={200} />
           <MerchantBitcoinHouse to="/bitcoin-house" x={580} y={173} />
           <MerchantLightningAtm to="/ln-atm" x={760} y={260} />
